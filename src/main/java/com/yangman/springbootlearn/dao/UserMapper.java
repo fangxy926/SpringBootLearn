@@ -1,6 +1,7 @@
 package com.yangman.springbootlearn.dao;
 
 import com.yangman.springbootlearn.entity.User;
+import org.apache.ibatis.annotations.Mapper;
 
 public interface UserMapper {
     int deleteByPrimaryKey(Long id);

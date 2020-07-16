@@ -28,7 +28,7 @@ new Vue({
             });
             setTimeout(() => {
                 this.loading.close();
-            }, 2000);
+            }, 1000);
         },
 
         submitForm(login) {
